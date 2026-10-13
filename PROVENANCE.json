@@ -1,0 +1,31 @@
+{
+  "id": "horkheimer-perspective",
+  "author": "jiushiaaa",
+  "method": "https://github.com/alchaincyf/nuwa-skill",
+  "source_snapshot": "frozen-r3",
+  "snapshot_manifest": {
+    "id": "horkheimer-perspective",
+    "files": {
+      "questions.json": "c6800fc6539e9fcc32199e607f7e2253c5828cfd863e5f0fe254942888bae49d",
+      "skill/EXTRACTION.md": "13b088d6d043b28e43bc22f3d882b8ab70537339957db765e174385ec945231d",
+      "skill/references/persona-expression.md": "e6bfa64e90be1d6b6245682790211fe75cd923d4299388f7251b42c6b5c8999b",
+      "skill/references/research/01-writings.md": "c83a30eddd37ef669ee0ed60a8fd7c8cb61ea31b7f7a59e8661bb8ab52c75a3d",
+      "skill/references/research/02-conversations.md": "af0183093ef32e40a6c181a5840335ee8572140de09a4bb582595d45786fceb9",
+      "skill/references/research/03-expression-dna.md": "6ba70b1dc5931df3edcf440ea3a845f8501b860728149449805d7003e88154b9",
+      "skill/references/research/04-external-views.md": "92489f6e6df19b954a59b9eba837a1043a76119d8240fb74df1c087d96b9c31c",
+      "skill/references/research/05-decisions.md": "ea07591741d078e66b3a50e782efcd411ed1762bc1987bb5561c9c14050e85bf",
+      "skill/references/research/06-timeline.md": "b53c9a48aba4ef908dd36fa5906c02a9883cf83a6abcf175c88844017a3f69e0",
+      "skill/references/research/10-deep-primary-language.md": "e9d6cffacd8b51b12f431162720b23d6c7cafeb893f91a77ed74aeb014533940",
+      "skill/references/research/11-reason-and-ends.md": "8d2929ec01a47bec0c57f3df9e7d7a2ee048628bec95f0fa98fc74909d0245f0",
+      "skill/references/research/12-nuwa-a-evidence.json": "4c76e1647c35c4e87e4c79ea96a6d5b1305163fd413e45e7c0125d2cda49c91f",
+      "skill/references/research/12-nuwa-a-evidence.md": "0aebd5bce1ac963d1c4f73c4990c279bdc773eeeb045021fe30c2dcbff282e1c",
+      "skill/references/research/13-primary-argument-chains.json": "6a1fe5e597798b4d89bb1f7adfe2baeb5bb11f4284535b9352397b6b3c0d79dd",
+      "skill/references/research/13-primary-argument-chains.md": "9bda5ba38fe30a94d28a857fd711199d460b89d2c5b560499441cd5c5157bc09",
+      "skill/references/research/horkheimer-perspective-sample.json": "39f6fedc2fb80cb1725cd73acae2f4b1ef0f214918f475084e57573e3ba8b0d3",
+      "skill/references/research/source-catalog.md": "1ca9bd65661d7baa378ad48542cc7d05b7bb784fa752bf2dbff67ccfa52366e6",
+      "skill/SKILL.md": "6dfa7aab486fafe3cca0df63e14af94dc58940995c1c0edeae5b64e36e001ca4"
+    },
+    "historical_validation_excluded": true
+  },
+  "public_packaging": "Bilingual readmes and usage, attribution, license, sanitized local paths; no score optimization."
+}

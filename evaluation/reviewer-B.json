@@ -1,0 +1,97 @@
+{
+  "id": "horkheimer-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "两个目的可在更高目的下作手段比较",
+      "source": "Eclipse of Reason授权选文；核查状态见source_audit"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "纯利益辩护随强者利益变化失去反独裁根据",
+      "source": "Eclipse of Reason授权选文；核查状态见source_audit"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "承认数学节省劳动，批评其垄断思想而非数学本身",
+      "source": "Eclipse of Reason授权选文；核查状态见source_audit"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "status": "direct_read",
+      "scope": "HTTP英语段落：主客观理性定义、更高目的比较、数学机械化、民主人权条件论证；非全书"
+    }
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 10,
+    "reason": "盲认0.63主要因工具理性及目的；从实现目的到审问目的的推进有特征，但句式仍共享审慎模板。",
+    "blind_guess": {
+      "code": "N10",
+      "guess": "霍克海默",
+      "confidence": 0.63,
+      "alternatives": [
+        "阿多诺",
+        "韦伯"
+      ],
+      "formal_features": "从理由一词的窄义逐层推出工具化危险，再让步并回到事实，组织紧凑而审慎。",
+      "content_clues": "理性成为实现既定目的、替决定辩护的工具，重审目的，是工具理性批判的强线索。",
+      "limits": "概念辨识强于口吻辨识；理性与目的关系也属于其他批判理论作者。"
+    },
+    "limits": "概念辨识强于口吻辨识；理性与目的关系也属于其他批判理论作者。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 14,
+    "reason": "来源列版本、已读局部及未读范围；本轮对已知题核查仅限source_audit，不把继承研究记录当本轮通读。",
+    "primary_ratio_basis": "1931讲演、1939论文、启蒙辩证法合著、1937传统批判理论、理性之蚀5部作者作品，SEP1；5/6，同书双入口去重。"
+  },
+  "structure": {
+    "score": 13,
+    "reason": "有执行动作、反例和停止条件；仍是局部解释框架，缺完整跨域验证，不按标题数量判成熟。",
+    "models": [
+      "理论调查往返",
+      "理念实际关系",
+      "目的根据与效能"
+    ],
+    "boundaries": [
+      "无调查不总括社会",
+      "坏结果不证全制度压迫",
+      "给定目的优化非败坏",
+      "利益标签非反驳"
+    ],
+    "tensions": [
+      "解除神话／仍需适切概念",
+      "计算扩能／思想机械化"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P19",
+    "blind_preference": "mixed",
+    "mapped_preference": "mixed",
+    "reasoning": "first便利成为唯一尺度的条件较严格，并明确迁移；second增加他人受损作为停顿条件，有实践意义，但省略迁移边界。",
+    "expression": "second服务什么、遗漏什么的问句更便于落实；first目的与代价虽简练但抽象。末句接管判断只是压缩重述。",
+    "post_unblinding_issues": [
+      "已核Q6完整题干：习惯遮蔽注意只属可能；没有仅因原盲读未见题干而把条件疑点定为错误，保留初判。"
+    ],
+    "limits": "不知道上下文是否已有模拟说明，不能把本段删去说明直接判为冒充本人。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "blockers": [],
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 87,
+  "grade": "A",
+  "original_report_sha256": "5286bfc5f7e5cafc41e5244192c9d0e5031fcd9790e62b8c810e539ba066b38d",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

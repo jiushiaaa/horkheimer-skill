@@ -1,0 +1,143 @@
+{
+  "source_hashes": [
+    {
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "sha256": "88980edba454b9b32a80516f4b7a9afc712230f791136697f0c3462593b9e528"
+    }
+  ],
+  "pool_size": 10,
+  "sample_count": 10,
+  "sample_seed": 20261013,
+  "records": [
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 14,
+      "sha256_normalized_paragraph": "e96a4fdd7e39621b74226e35d6e5e7f5741807649f3da90b295074e987140ed2",
+      "words": 191,
+      "sentences": 7,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 1
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 11,
+      "sha256_normalized_paragraph": "6672bc0d335c1b1f1a20b90715cd98894f4e99df9bf4726d30fcd5c8071a2661",
+      "words": 327,
+      "sentences": 14,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 1
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 4,
+      "sha256_normalized_paragraph": "1d94e3bf47a956ada7e22ec1cd1147b83f2744fa99868cdbb65b5460564cc9d5",
+      "words": 104,
+      "sentences": 5,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 0
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 5,
+      "sha256_normalized_paragraph": "e8b07f8b8a61fab33482949f7dec9bcc1118c4378e887bf25d728f254b344d7a",
+      "words": 261,
+      "sentences": 14,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 1
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 7,
+      "sha256_normalized_paragraph": "512834021bd655eaf892e2589fa98029e6b0ee572eb2330e2a447378404e0e4d",
+      "words": 147,
+      "sentences": 5,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 2
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 3,
+      "sha256_normalized_paragraph": "b7dd4654a9b1adf1ec6a514710b153eb2335e6f6889fbe3546d7a50984423d1b",
+      "words": 182,
+      "sentences": 6,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 1
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 12,
+      "sha256_normalized_paragraph": "8a52981b614c57a171e9141426257523373d84646a895e30af442d77de9495b6",
+      "words": 186,
+      "sentences": 9,
+      "question_sentences": 2,
+      "first_person_tokens": 0,
+      "contrast_tokens": 2
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 1,
+      "sha256_normalized_paragraph": "eb110b8a26d50b977454f70d688edb2b71a922a0eb9351f8c461d089d838aaf8",
+      "words": 321,
+      "sentences": 12,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 1
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 2,
+      "sha256_normalized_paragraph": "3214ff9e486557d831bdf8fe8930d6e3f221d24a0764d87f4fc85e00dac121bc",
+      "words": 307,
+      "sentences": 12,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 5
+    },
+    {
+      "work": "Eclipse of Reason, 1947 / 2013 authorized English excerpts",
+      "url": "https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-161",
+      "html_p_index_zero_based": 10,
+      "sha256_normalized_paragraph": "eb86aafd8b07e77cac8581776a647807f343feeb29813e00ada72cbf8f75824e",
+      "words": 146,
+      "sentences": 6,
+      "question_sentences": 0,
+      "first_person_tokens": 0,
+      "contrast_tokens": 0
+    }
+  ],
+  "metrics": {
+    "words": 2172,
+    "sentences": 90,
+    "question_sentences": 2,
+    "first_person_tokens": 0,
+    "contrast_tokens": 14,
+    "mean_words_per_sentence": 24.133,
+    "question_sentence_ratio": 0.02222,
+    "first_person_per_1000_words": 0.0,
+    "contrast_per_1000_words": 6.446
+  },
+  "analogy_density": null,
+  "certainty_ratio": null,
+  "limitations": [
+    "Length-restricted sampling (30–180 words), not representative of the full work; Horkheimer uses ten eligible original paragraphs without length filtering.",
+    "Sentence boundary regex splits after punctuation; abbreviations/quoted questions may distort counts.",
+    "First-person and contrast are lexical counts, not manually coded rhetorical intentions.",
+    "Analogy density and certainty ratio not measured.",
+    "Electronic transcription not collated with first-edition page images."
+  ]
+}
