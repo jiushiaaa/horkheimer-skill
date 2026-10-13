@@ -1,14 +1,40 @@
-# 霍克海默 · Skill
+<h1 align="center">horkheimer.skill</h1>
 
-**中文** | [English](README.en.md)
+<p align="center">霍克海默 · Max Horkheimer</p>
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with Nuwa](https://img.shields.io/badge/Made_with-Nuwa-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
+**中文** · [English](README.en.md)
 
-工具理性与批判理论。以可追溯原作和明确边界支持思想分析，默认中性，人物表达单独开启。
+<blockquote>
+<p align="center">“它的目标，是使人摆脱奴役。”<br>— 霍克海默 · <a href="https://blogs.law.columbia.edu/critique1313/files/2019/09/Horkheimer-Traditional-and-Critical-Theory-2.pdf">〈传统理论与批判理论〉附记</a></p>
+</blockquote>
 
-使用 [nvwa-skill](https://github.com/alchaincyf/nuwa-skill) 构建。
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with nvwa-skill](https://img.shields.io/badge/Made_with-nvwa--skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 
-[使用说明](USAGE.md) · [思想入口与研究材料](SKILL.md)
+**将批判理论、社会调查与工具理性问题整理为思想分析 Skill，让 AI 既问方案是否有效，也问它服务什么目的、在怎样的社会关系中发生作用。**
+
+---
+
+## 效果示例
+
+以下为说明用法而编写的示例，展示分析思路；不是哲学家原话或实测对话记录。
+
+### 1. 这个考核系统使产量提高了，所以就是好制度吧？
+
+> 产量上升说明了某种效能，尚未说明目的与分配是否合理。继续调查工作强度、风险与收益由谁承担，以及提高产量为何值得；也不能只因强调效率就断定制度必然有害。
+
+### 2. 调查只需要收集能证明理论的数据吗？
+
+> 如果什么结果都只会证明原理论，调查就失去了修正它的机会。应当先写出哪些材料会迫使问题重提，并把愿望、现存条件与改变机制分开。
+
+## 蒸馏了什么
+
+| 思想方法 | 能帮助分析什么 |
+|---|---|
+| 理论与调查 | 让经验材料有机会迫使理论问题重写。 |
+| 理念与关系 | 比较制度宣称的目标、实际作用与社会条件。 |
+| 目的与手段 | 把手段效率和目的的正当理由分别审查。 |
+
+这些方法来自已定位的原作选段，不代表全集蒸馏。具体依据与适用范围见 [SKILL.md](SKILL.md) 和 [提炼说明](EXTRACTION.md)。
 
 ## 安装
 
@@ -34,21 +60,39 @@ git clone https://github.com/jiushiaaa/horkheimer-skill.git
 
 不支持自动加载时，可把 `SKILL.md` 连同当前问题需要的引用文件交给 agent。README 与使用说明提供中英双语，研究底稿保留原语言。
 
-## 使用
+## 使用方式
 
-例如：“用霍克海默的思想分析这个问题，区分原作观点与当代推断。”需要表达模拟时明确开启人物表达模式；文游创作或审读只取思想，不接管作品口吻。详见[双语使用说明](USAGE.md)。
+- **中性思想模式（默认）：**“用霍克海默的思想分析这个问题，区分原作观点与当代应用。”
+- **人物表达模式（可选）：**明确提出“开启人物表达模式”。这是注明性质的模拟，不是作者本人发言。
 
-## 思想方法
+文游创作默认只取思想，文风另行决定。详见 [双语使用说明](USAGE.md)。
 
-- 理论—调查往返（F1/F2；第1项）
-- 理念与关系（F2/F3；第2项）
-- 目的根据与手段效能（F7；新增有限程序）
+## 调研来源
 
-详见 [SKILL.md](SKILL.md) 与 [EXTRACTION.md](EXTRACTION.md)。目录中的候选、局部证据和未读范围均保留，不能把它们理解成全集蒸馏完成。
+〈传统理论与批判理论〉及附记；《理性之蚀》第一章选段；社会研究相关讲演。
 
-## 许可
+- [原作来源、版本与实际阅读范围](references/research/source-catalog.md)
+- [方法提炼与证据](EXTRACTION.md)
+- 开篇名言出处：<a href="https://blogs.law.columbia.edu/critique1313/files/2019/09/Horkheimer-Traditional-and-Critical-Theory-2.pdf">〈传统理论与批判理论〉附记</a>，第 246 页；“它”指批判理论。中文引文为本仓库译文；非英语原作的英文引文亦为本仓库译文。
 
-项目原创材料采用 [MIT](LICENSE)，引用的原著与译本保留各自权利。详见 [来源说明](ATTRIBUTION.md)。
+## 仓库结构
+
+主要文件：
+
+```text
+├── SKILL.md  # Skill 入口与分析方法
+├── README.md / README.en.md  # 中英文介绍
+├── USAGE.md  # 双语使用说明
+├── EXTRACTION.md  # 方法提炼与证据
+├── references/  # 研究笔记与可选人物表达模式
+└── LICENSE  # MIT 许可
+```
+
+## 构建工具
+
+使用 [nvwa-skill](https://github.com/alchaincyf/nuwa-skill) 构建。
+
+项目原创材料采用 [MIT](LICENSE)，所引原著与译本保留各自权利。详见 [来源说明](ATTRIBUTION.md)。
 
 ## 更多 Skill
 

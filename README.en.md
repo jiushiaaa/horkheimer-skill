@@ -1,14 +1,40 @@
-# Max Horkheimer · Skill
+<h1 align="center">horkheimer.skill</h1>
 
-[中文](README.md) | **English**
+<p align="center">霍克海默 · Max Horkheimer</p>
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with Nuwa](https://img.shields.io/badge/Made_with-Nuwa-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
+[中文](README.md) · **English**
 
-Instrumental reason and critical theory. A bounded, source-linked thinking resource with neutral analysis by default and an explicitly enabled expression mode.
+<blockquote>
+<p align="center">“Its goal is man’s emancipation from slavery.”<br>— Max Horkheimer · <a href="https://blogs.law.columbia.edu/critique1313/files/2019/09/Horkheimer-Traditional-and-Critical-Theory-2.pdf">Traditional and Critical Theory, Postscript</a></p>
+</blockquote>
 
-Built with [nvwa-skill](https://github.com/alchaincyf/nuwa-skill).
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with nvwa-skill](https://img.shields.io/badge/Made_with-nvwa--skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 
-[Usage](USAGE.md) · [Research and entry point](SKILL.md)
+**A thinking skill for critical theory, social inquiry, and instrumental reason: ask both whether a scheme works and what ends and social relations its success serves.**
+
+---
+
+## Examples
+
+Illustrative applications written for this README; these are not quotations from the philosopher or transcripts of a live run.
+
+### 1. An assessment system increased output. Does that make it a good institution?
+
+> The increase supports a claim about effectiveness, not yet the justification of its ends or distribution. Investigate workload, risk, beneficiaries, and why the target matters. An emphasis on efficiency alone does not prove harm.
+
+### 2. Should research collect only data that confirms the theory?
+
+> If every outcome merely confirms the initial theory, inquiry cannot revise it. Specify what would force the question to change and distinguish aspirations, existing conditions, and mechanisms of change.
+
+## What is distilled
+
+| Method | What it helps examine |
+|---|---|
+| Theory and inquiry | Allow evidence to revise the theoretical question. |
+| Ideals and relations | Compare stated aims, actual effects, and social conditions. |
+| Ends and means | Assess efficiency separately from the justification of ends. |
+
+These are selected, source-grounded methods, not a claim to cover the complete works. See [SKILL.md](SKILL.md) and [extraction notes](EXTRACTION.md) for scope and reasoning.
 
 ## Installation
 
@@ -34,17 +60,39 @@ git clone https://github.com/jiushiaaa/horkheimer-skill.git
 
 If automatic skill loading is unavailable, provide `SKILL.md` together with the referenced files needed for your question. Research notes remain in their source languages; README and usage guides are bilingual.
 
-## Use
+## Usage
 
-Ask: “Use Max Horkheimer's ideas to analyze this problem, separating source claims from contemporary inference.” For expression simulation, explicitly request expression mode. Fiction writing and review use ideas without taking over the narrative voice. See the bilingual [usage guide](USAGE.md).
+- **Neutral analysis (default):** “Use Max Horkheimer’s ideas to analyze this question. Distinguish source claims from contemporary applications.”
+- **Persona expression (optional):** explicitly request “persona expression mode.” It is an acknowledged simulation, not a statement by the philosopher.
 
-## Coverage and evidence
+Fiction work uses the ideas while leaving narrative voice to the writing task. See the bilingual [usage guide](USAGE.md).
 
-The [entry point](SKILL.md) routes to documented, bounded methods and [extraction notes](EXTRACTION.md). The research directory records sources, actual reading ranges, translations, and unresolved gaps. It is not a distillation of the complete works. Research notes remain in their original languages.
+## Research sources
 
-## License
+Traditional and Critical Theory and its Postscript; selections from chapter I of Eclipse of Reason; lectures on social research.
 
-Project-original material is [MIT licensed](LICENSE). Source quotations retain their separate rights. See [attribution](ATTRIBUTION.md).
+- [Source catalogue and reading ranges](references/research/source-catalog.md)
+- [Method extraction and evidence](EXTRACTION.md)
+- Opening quotation: <a href="https://blogs.law.columbia.edu/critique1313/files/2019/09/Horkheimer-Traditional-and-Critical-Theory-2.pdf">Traditional and Critical Theory, Postscript</a>, p. 246; “it” refers to critical theory. English wording is translated where the source is not English; Chinese quotations are repository translations.
+
+## Repository structure
+
+Main files:
+
+```text
+├── SKILL.md  # Skill entry point and analysis methods
+├── README.md / README.en.md  # Chinese and English introduction
+├── USAGE.md  # Bilingual usage guide
+├── EXTRACTION.md  # Method extraction and evidence
+├── references/  # Research notes and optional expression mode
+└── LICENSE  # MIT license
+```
+
+## Built with
+
+Built with [nvwa-skill](https://github.com/alchaincyf/nuwa-skill).
+
+Original project material is [MIT licensed](LICENSE); quoted works and translations retain their separate rights. See [source notices](ATTRIBUTION.md).
 
 ## More skills
 
